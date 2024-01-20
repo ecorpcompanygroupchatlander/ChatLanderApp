@@ -1,0 +1,12 @@
+.Message{
+    position: absolute;
+    width: 95%;
+    background: #00000080;
+    left: 2%;
+    bottom: 0;
+    height: 50px;
+    margin-bottom: 1rem;
+    border-radius: 10px;
+    text-align: center;
+    display: none;
+}

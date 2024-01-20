@@ -1,0 +1,10 @@
+form{
+    background: transparent;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    display: block;
+    overflow-y: auto;
+    overflow-x: hidden;
+    width: 100%;
+    height: auto;
+}

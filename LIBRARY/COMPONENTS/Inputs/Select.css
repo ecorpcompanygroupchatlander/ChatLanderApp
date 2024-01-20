@@ -1,0 +1,21 @@
+select{
+    position: relative;
+    width: 95%;
+    min-height: 16px;
+    height: 32px;
+    max-height: 32px;
+    background: #00000080;
+    margin-top: 0.2rem;
+    margin-bottom: 0.2rem;
+    left: 2%;
+    border-radius: 5px;
+    border: none;
+    text-align: left;
+    color: white;
+}
+
+/* Disable input outline and highlight */
+select{
+    outline: none;
+    -webkit-tap-highlight-color: transparent;
+}

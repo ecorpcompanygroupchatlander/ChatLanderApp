@@ -1,0 +1,40 @@
+@import url('../CONNECTION/Connection.css');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    transition: 1s;
+    scroll-behavior: smooth;
+    text-decoration: none;
+    list-style: none;
+    font-family: sans-serif;
+    color: white;
+}
+
+body{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: gainsboro;
+    overflow: hidden;
+    display: block;
+}
+
+div{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    overflow: hidden;
+    display: block;
+}
+
+.SplashScreenImage{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: block;
+    top: 0;
+    overflow: hidden;
+}
