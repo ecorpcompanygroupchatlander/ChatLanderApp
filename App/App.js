@@ -1,5 +1,7 @@
 NETWORKSTATE((data)=>{
 
+SERVICEWORKER();
+
 APPMODE('','','#121212');
 
 APPNAME('Chat');
