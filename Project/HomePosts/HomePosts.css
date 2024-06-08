@@ -1,0 +1,79 @@
+.HomeDiv{
+    position: relative;
+    background: transparent;
+    width: 95%;
+    margin-left: 2%;
+    border-radius: 10px;
+    height: 90%;
+    margin-top: 0.3rem;
+    margin-bottom: 0.3rem;
+    border: 1px solid #cdcdcd20;
+}
+
+.postersImage{
+    position: absolute;
+    margin: 2% 2%;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    object-fit: cover;
+}
+
+.PostedImage{
+    position: absolute;
+    width: 100%;
+    height: 80%;
+    top: 60px;
+}
+
+.PostersName{
+    position: absolute;
+    margin: 2% 20%;
+    font-size: 16px;
+}
+
+.PostersTime{
+    position: absolute;
+    margin: 9% 20%;
+    font-size: 16px;
+    color :#bbc7c7
+}
+
+.LikeDiv{
+    position: absolute;
+    top: auto;
+    bottom: 0;
+    background: transparent;
+    border-radius: 50px;
+    height: 45px;
+    width: 45px;
+    margin-left: 2rem;
+    margin-right: 1rem;
+    display: inline-flex;
+}
+
+.CommentDiv{
+    position: absolute;
+    top: auto;
+    bottom: 0;
+    background: transparent;
+    border-radius: 50px;
+    height: 45px;
+    width: 45px;
+    margin-left: 7.5rem;
+    margin-right: 1rem;
+    display: inline-flex;
+}
+
+.ShareDiv{
+    position: absolute;
+    top: auto;
+    bottom: 0;
+    background: transparent;
+    border-radius: 50px;
+    height: 45px;
+    width: 45px;
+    margin-left: 13.5rem;
+    margin-right: 1rem;
+    display: inline-flex;
+}

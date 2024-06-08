@@ -1,0 +1,16 @@
+.floatbutton{
+    position: fixed;
+    bottom: 5%;
+    width: 50px;
+    right: 5%;
+    left: auto;
+    background: forestgreen;
+    border-radius: 50px;
+    display: inline-flex;
+}
+
+.PostsDiv{
+    background: transparent;
+    overflow-y: auto;
+    overflow-x: hidden;
+}

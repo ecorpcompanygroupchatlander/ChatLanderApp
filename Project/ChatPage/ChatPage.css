@@ -1,0 +1,33 @@
+.UserIcon{
+    margin-right: 1rem;
+    width: 30px;
+}
+
+.ChattingDiv{
+    background: transparent;
+    bottom: 50px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.ChatHolders{
+    border-top: 1px solid #cdcdcd20;
+    position: absolute;
+    background: transparent;
+    height: 50px;
+    top: auto;
+    bottom: 0;
+    display: inline-flex;
+}
+
+.ChatInput{
+    width: 69%;
+    height: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-top: auto;
+    border: 1px solid #cdcdcd20;
+    padding: 0.5%;
+    border-radius: 5px;
+}
