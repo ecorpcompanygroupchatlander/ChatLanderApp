@@ -5,3 +5,30 @@
     margin-right: 1rem;
     font-size: 20px;
 }
+
+.ProfileImage{
+    width: 95%;
+    height: 50%;
+    margin:2% 2% ;
+    border: 1px solid #cdcdcd20;
+    border-radius: 10px;
+}
+
+.UserName{
+    width: 95%;
+    margin: 2% 0%;
+    text-align: left;
+    padding-left: 2%;
+    border-bottom: 1px solid #cdcdcd20;
+}
+
+.UserDetailsDiv{
+    position: relative;
+    width: 95%;
+    height: 50px;
+    margin: 2% 2%;
+    border-radius: 0px;
+    display: inline-flex;
+    background: transparent;
+    border-bottom: 1px solid #cdcdcd20;
+}

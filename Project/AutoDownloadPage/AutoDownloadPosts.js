@@ -6,8 +6,6 @@ export const AUTODOWNLOADPOST=()=>{
 
         GETPACKAGE(POSTSAPI,'cors',(data)=>{
 
-            console.log(data)
-
             const POSTSDATA={
                 "Name":"Posts",
                 "Posts":data
