@@ -4,18 +4,59 @@ export const PROFILEPAGE=()=>{
 
     DEJSON('Local','UserData',(data)=>{
 
+        let FRIENDS;
+
+        if (data.UserFriends) {
+
+            JSONLENGTH(data.UserFriends,(data)=>{
+
+                FRIENDS=data;
+
+            })
+            
+        }
+
         BACKHEADERWIDGET(()=>{HOMEPAGE()},
             `
                 
-                <h1 class='Section'>Profile</h1>
+                <img class='Section' src='${WHITEICONS}setting.png'/>
 
             `, 
             `
 
-                <img class='ProfileImage' src='${data.UserPhoto}'/>
+                <div id='UserDetailsDiv' class='View'>
 
-                <p class='UserName'>${data.UserName}</p>
+                    <img class='ProfileImage' src='${data.UserPhoto}'/>
 
+                    <h3 class='UserName'>${data.UserName}</h3>
+
+                    <div class='MyFriendsOptionsHolder'>
+
+                        <img class='UserIDImages' src='${WHITEICONS}group-users.png'/>
+
+                        <p class='MyLocation'>${FRIENDS}</p>
+
+                    </div>
+
+                    <div class='UserOptionsHolder'>
+
+                        <img class='UserIDImages' src='${WHITEICONS}library.png'/>
+
+                        <p class='MyLocation'>${data.UserUploads}</p>
+
+                    </div>
+
+                    <div class='UserLocatonHolder'>
+
+                        <img class='UserIDImages' src='${WHITEICONS}location.png'/>
+
+                        <p class='MyLocation'>${data.UserLocation}</p>
+
+                    </div>
+                
+                </div>
+
+            
                 <div class='UserDetailsDiv'>
 
                     <img src='${WHITEICONS}profile.png'/>
@@ -26,14 +67,9 @@ export const PROFILEPAGE=()=>{
                 
                 </div>
 
-                
-
-
-
-
             `,''
 
-        );
+        )
 
     });
 

@@ -1,6 +1,6 @@
 NETWORKSTATE((data)=>{
 
-//SERVICEWORKER();
+SERVICEWORKER();
 
 APPMODE('','','#121212');
 

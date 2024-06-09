@@ -7,18 +7,20 @@
 }
 
 .ProfileImage{
-    width: 95%;
-    height: 50%;
-    margin:2% 2% ;
+    width: 150px;
+    height: 150px;
+    margin:3.5% 2% ;
     border: 1px solid #cdcdcd20;
     border-radius: 10px;
 }
 
 .UserName{
-    width: 95%;
+    position: absolute;
+    top: 7%;
+    width: 50%;
+    right: 2%;
+    font-size: 15px;
     margin: 2% 0%;
-    text-align: left;
-    padding-left: 2%;
     border-bottom: 1px solid #cdcdcd20;
 }
 
@@ -31,4 +33,55 @@
     display: inline-flex;
     background: transparent;
     border-bottom: 1px solid #cdcdcd20;
+}
+
+.UserLocatonHolder{
+    width: 45%;
+    right: 2%;
+    top: auto;
+    height: 35px;
+    background: transparent;
+    border: 1px solid #cdcdcd20;
+    display: inline-flex;
+    bottom: 5%;
+    border-radius:20px;
+}
+
+.MyLocation{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.UserOptionsHolder{
+    width: 45%;
+    right: 2%;
+    top: auto;
+    height: 35px;
+    background: transparent;
+    border: 1px solid #cdcdcd20;
+    display: inline-flex;
+    bottom: 27%;
+    border-radius:20px; 
+}
+
+.MyFriendsOptionsHolder{
+    width: 45%;
+    right: 2%;
+    top: auto;
+    height: 35px;
+    background: transparent;
+    border: 1px solid #cdcdcd20;
+    display: inline-flex;
+    bottom: 50%;
+    border-radius:20px; 
+}
+.UserIDImages{
+    margin-left: 0.5rem;
+}
+
+#UserDetailsDiv{
+    background: transparent;
+    border: 1px solid #cdcdcd05;
 }
